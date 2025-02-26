@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center vh-100">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <form class="p-4 rounded shadow" id="signin-form" >
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-dark" >Mobile Number</label>
+            <input type="number" class="form-control-active" id="exampleInputEmail1" aria-describedby="emailHelp"  placeholder="Enter your mobile number">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-dark">Password</label>
+            <div class="input-container d-flex align-items-center">
+                <input type="password" class="form-control-active" placeholder="Enter your password" id="showpassoword">
+              <!-- <button class="eye-icon border-0 bg-white" id="eye-icon" onclick="show()"> -->
+                <i onclick="show()" class="fa fa-eye bg-white eye-icon"></i> 
+              </button>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" onclick="getMobileNumberFromInput()" >Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

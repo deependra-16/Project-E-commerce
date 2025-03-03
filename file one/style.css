@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0 !important;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style:none;
+}
+
+.logo-img {
+    width: 40%;
+}
+
+.first-row {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding: 15px 15px 15px 15px !important;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    backdrop-filter: blur(20px);
+}
+
+/* opacity element */
+.second-class{
+    display: none;
+    background-color: rgb(255, 243, 227);
+}
+
+
+/* opacity element */
+
+
+.second-column {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.third-column {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    gap: 2.5rem;
+}
+
+/* navbar ended */
+
+
+
+
+
+.dis-content-first {
+    margin: 3rem 0px 0px 1.5rem !important;
+
+}
+
+.dis-content-second {
+    color: rgba(184, 142, 47, 1);
+    margin: 0.6rem 0px 0.6rem 1.5rem !important;
+
+}
+
+.dis-content-third {
+    margin: 0px 0.8rem 0px 1.5rem !important;
+
+}
+
+.dis-content-four {
+    background-color: rgba(184, 142, 47, 1);
+    color: white;
+    padding: 10px 20px 10px 20px !important;
+    border: none;
+    font-weight: 700;
+    margin: 0.6rem 0px 3rem 1.5rem !important;
+    transition-duration: 1s;
+}
+
+.dis-content-four:hover{
+    background-color: brown;
+    color: black;
+}
+
+/* second css here */
+
+/* third css start here */
+.mak-group {
+    display: flex;
+    justify-content: center !important;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* card first css end here */
+
+/* .main-card{
+    display: flex;
+    justify-content: center ;
+    gap: 10px;
+    flex-wrap: wrap;
+} */
+
+
+/* card second css start here */
+
+/* chat gpt */
+
+.container-fluid .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* Cards ko center align karne ke liye */
+}
+
+.second-btn:hover{
+    background-color: cyan !important;
+    color: black !important;
+    border-color: white !important;
+}
+
+.button-3:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.main-card .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15rem;
+    background-color: rgba(244, 245, 247, 1);
+    height: 100%;
+    border-radius: 0;
+}
+
+.main-card {
+    display: flex;
+    gap: 20px;
+    /* Cards ke beech ka gap */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    /* Body ko stretch karta hai */
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    /* Image ka aspect ratio maintain karne ke liye */
+}
+
+/* scroll group css start here */
+
+.scroll-group {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.scroll-group-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-grouo-3 {
+    overflow-x: scroll;
+}
+
+/*  
+ .inner::-webkit-scrollbar {
+    display: none !important;
+}  */
+
+/* footer css start */
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0 2rem 0 2rem;    flex-direction: row;
+    /* background-color: aqua; */
+}
+
+
+.footer1{
+    margin: 5% !important;
+    /* background-color: rgb(121, 21, 78); */
+}
+.footer2{
+    margin: 5% !important;
+    /* background-color: rgb(44, 83, 110); */
+
+}
+.footer3{
+    margin: 5% !important;
+    /* background-color: rgb(104, 60, 6); */
+
+}
+.footer4{
+    margin: 5% !important;
+    /* background-color: rgb(13, 148, 35); */
+
+}
+
+li{
+    margin-bottom: 1rem !important;
+}
+
+a{
+    color: black !important;
+    text-decoration: none;
+}
+.bottom{
+    background-color: rgb(159, 159, 159);
+    /* width: 100%; */
+    height: 1px;
+    margin: 0rem 6.7rem 0rem 6.7rem !important;
+}
+
+.last{
+    margin-left: 6.7rem !important;
+    margin-top: 2rem !important;
+}
+
+
+.card1{
+    position: relative;
+}
+
+.position-element{
+position: absolute;
+z-index: 1;
+right: 20px;
+top: 20px;
+font-size: 14px;
+background-color: rgb(233, 113, 113);
+border-radius: 50%;
+color: white;
+text-align: center;
+width: 3rem;
+padding-top: 0.9rem;
+height: 3rem;
+}
+
+
+
+.dis-content {
+    position: absolute;
+    background-color: rgba(255, 243, 227, 1);
+    right: 10rem;
+    bottom: 5rem;
+    /* padding: 10%; */
+}
+
+/*  */
+
+
+
+/* descriptions css ended */
+
+
+@media (min-width: 300px) and (max-width: 576px) {
+    .logo-img {
+        width: 40%;
+    }
+
+    .logo-main {
+        display: flex;
+        justify-content: center;
+        margin: 10PX;
+    }
+    
+    .footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0 !important;
+    }
+
+    .bottom{
+        background-color: rgb(111, 17, 182);
+        width: 100% !important;
+        height: 2px;
+        margin: 0 !important;
+        /* margin: 0rem 6.7rem 0rem 6.7rem !important; */
+    }
+
+    .last{
+        text-align: center;
+        margin-left: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .second-class{
+        display: block;
+    }
+    .dis-content{
+        display: none;
+    }
+
+    .backimage{
+        width: 100% !important;
+    }
+    .first-row{
+        position: static;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .logo-img {
+        width: 30%;
+    }
+
+    .logo-main {
+        display: flex;
+        justify-content: center;
+        margin: 6px 0px 6px 0px;
+    }
+
+    .second-class{
+        display: block;
+    }
+    .dis-content{
+        display: none;
+    }
+    
+}
+body{
+    overflow-y: hidden;
+}
+
+.loading { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+}

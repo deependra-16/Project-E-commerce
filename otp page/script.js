@@ -23,7 +23,7 @@ otp1.addEventListener('input',function(e){
     // else if(e.target.value.length==0){
     //     document.getElementById("otp-1").blur()
     // }
-})
+})``
 otp2.addEventListener('input',function(e){
     console.log(e,"asdsd")
     if(e.target.value.length>1){

@@ -1,4 +1,6 @@
-let base_url = "http://localhost:3000"
+import base_url from "../exports.js"
+
+console.log(base_url,"i am url")
 
 function getMobileNumberFromInput() {
     let password = document.getElementById("showpassoword")
